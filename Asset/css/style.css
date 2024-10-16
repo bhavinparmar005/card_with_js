@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto",sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    background: radial-gradient(circle at left bottom, #96a4b2 , #e6eaed) 
+  
+}
+
+.card_main_container{
+    width: 100%;
+    height: 550px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.card_main{
+    width: 290px;
+    height: 480px;
+    /* border: 1px solid rgb(17, 14, 7); */
+    border-radius: 35px;
+    background-color:#ffffff;
+    padding: 8px;
+    box-shadow: inset -4px -6px 20px 0px black;
+    ;
+}
+.card_img{
+    width: 100%;
+    height: 280px;
+    /* border: 2px solid rgba(128, 128, 128, 0.356); */
+    border-radius: 12% 10% 100% 0% / 13% 10% 50% 98% ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at left bottom, #f59818 , #f13a11)
+}
+.img{
+    width: 50%;
+    height:50%;
+}
+.contant_main{
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+}
+h2{
+
+    padding: 10px 0;
+font-size: 1.8rem;
+    text-align: center;
+   
+}
+.botton_main{
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+    background: radial-gradient(circle at left bottom, #f59818 , #f13a11)
+}
